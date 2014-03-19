@@ -15,21 +15,26 @@ $(function(){
 			$("#gallery").show();
 
 			// Create the animation
-			$("#gallery").animate({ top: "+=328px" }, 10000);
-			$("#pic-fade").animate({ top: "+=328px" }, {duration: 10000, queue: false});
-			$("#pic-fade").animate({ opacity: 0 }, {duration: 15000, queue: false});
+			$("#gallery").animate({ top: "+=328px" }, 14000);
+			$("#pic-fade").animate({ top: "+=328px" }, {duration: 14000, queue: false});
+			$("#pic-fade").animate({ opacity: 0 }, {duration: 35000, queue: false});
 		} else {
 			//Reset everything in case we're running this a 2nd or nth time
 			$(".photobooth canvas, .blind, #view_set_menu").css("visibility", "visible");
 			$("#gallery").css("top","329px");
 			$("#gallery").empty();
-			$("#pic-fade").css("top","107px");
+			$("#pic-fade").css("top","73px");
 			$("#pic-fade").css("opacity","1");
 
 		};
 
 	});
 
+	$('#caption-btn').click(function(){
+		var caption_el = $('<p id="caption-val">')
+		$(caption_el).append($('#caption-input').val());
+		var new_caption = $('#new-selfie').append(caption_el);
+	});
 
 	/**
 	* Tab boxes
@@ -51,3 +56,4 @@ $(function(){
 		$( "#nav a[href=" + $(this).attr( "href" ) + "]" ).addClass( "selected" );
 	});
 });
+

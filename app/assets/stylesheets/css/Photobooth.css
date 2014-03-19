@@ -1,6 +1,6 @@
 .photobooth{
 	position: absolute;
-	top: 170px;
+	top: 130px;
 	left: 55px;
 	font: 11px arial,sans-serif;
 	user-select: none;
@@ -31,26 +31,7 @@
 	-moz-transition: opacity 1500ms ease-out;
 	-webkit-transition: opacity 1500ms ease-out;
 }
-.photobooth .warning{
-	position: absolute;
-	top:45%;
-	background: #ffebeb;
-	color:#cf0000;
-	border:1px solid #cf0000;
-	width: 60%;
-	left: 50%;
-	margin-left: -30%;
-	display: none;
-	padding: 5px;
-	z-index: 10;
-	text-align: center;
-}
 
-.photobooth .warning span{
-	text-decoration: underline;
-	cursor: pointer;
-	color: #333;
-}
 .photobooth ul{
 	width: 30px;
 	position: absolute;
