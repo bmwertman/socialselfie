@@ -98,15 +98,15 @@ h2
 
 #add-caption input{
    height: 60px;
+   font-size: 1.5em;
+   text-align: center;
 }
 
-#add-caption{
-  text-align: center;
-  margin-right: 17px;
+#add-caption {
+  margin-left: 117px;
   bottom: -210px;
   position: absolute;
   z-index: 10;
-  font-size: 1.5em;
 }
 
 #selfie-submit{

@@ -29,13 +29,6 @@ $(function(){
 		};
 
 	});
-
-	$('#caption-btn').click(function(){
-		var caption_el = $('<p id="caption-val">')
-		$(caption_el).append($('#caption-input').val());
-		var new_caption = $('#new-selfie').append(caption_el);
-	});
-
 	/**
 	* Tab boxes
 	*/
