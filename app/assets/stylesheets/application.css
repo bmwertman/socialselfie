@@ -20,12 +20,12 @@ body{
  	/*background-image: url("/assets/wood_00326565.jpg");*/
 }
 #header-box {
-  width: 504px;
+  width: 723px;
   float: right;
-  margin: 20px 20px 0 0 ;
+  margin-top: 20px;
 }
 
-#heading {
+/*#heading {
   line-height: 0.7em;
 }
 #heading, #subtitle {
@@ -42,6 +42,27 @@ body{
 #subtitle {
   font-size: 2.7em;
   margin-left: 80px
+}*/
+#envelope {
+  position: absolute;
+  z-index: -1;
+  right: 35px;
+  box-shadow: 2px 3px 3px #3b2e1b;
+  -moz-box-shadow: 2px 3px 15px #3b2e1b;
+  -webkit-box-shadow: 2px 3px 15px #3b2e1b;
+}
+
+#latte-logo {
+  right: 560px;
+  position: absolute;
+  width: 253px;
+  margin-top: 35px;
+}
+
+#sharpie {
+  width: 42px;
+  float: right;
+  margin: 268px -109px 0 0;
 }
 
 #slide-div-d3 {
@@ -167,12 +188,12 @@ body{
   transition-duration: 0.3s;
 }
 
-#slideout:hover {
-  left:465px;
-}
+/*#slideout:hover {
+  left:405px;
+}*/
 
 #slideout:hover #slideout_inner {
-  left: 0;
+  left: -60px;
 }
 
 h4#tab {
